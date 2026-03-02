@@ -1,5 +1,4 @@
 public class EmailSender extends NotificationSender {
-    /** Channel display limit for body (documented; does not change base contract). */
     private static final int MAX_BODY_DISPLAY = 40;
 
     public EmailSender(AuditLog audit) { super(audit); }
